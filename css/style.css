@@ -4,6 +4,7 @@ html,
 body,
 #home {
     height: 100%;
+    overflow-x: hidden;
 }
 
 body {
@@ -116,15 +117,41 @@ h3 {
 }
 
 .beneficios {
-    margin-top: 3em;
+    margin-top: 5em;
+}
+
+/* --- vantagens --- */
+
+#vantagens {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+}
+
+#vantagens h2 {
+    color: white;
+}
+
+#vantagens h3 {
+    color: #9bf0e1;
+}
+
+.rotacionar {
+    -ms-transform: rotate(30deg);
+    -webkit-transform: rotate(30deg);
+    transform: rotate(30deg);
+    padding-left: 80px;
 }
 
 /* --- media queries --- */
 
 /* --- Dispositivos extra small (telefones em modo retrato, com menos de 576px) --- */
 @media (max-width: 575.98px) {
+
     .btn-custom {
         margin: 10px 15px;
+        width: 100%;
+        font-size: 1em;
     }
 
     .btn-branco {
@@ -139,11 +166,10 @@ h3 {
         gap: 20px;
         margin-right: -15px;
         margin-left: -15px;
-
     }
 
     .beneficios {
-        margin-top: 0;
+        margin-top: 2em;
     }
 }
 
@@ -186,10 +212,28 @@ h3 {
     h1 {
         font-size: 5em;
     }
+
+    ::-webkit-scrollbar {
+        height: 10px;
+        width: 5px;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background-color: #000000a2; 
+    }
 }
 
 @media (min-width: 1200px) {
     h1 {
         font-size: 6em;
+    }
+
+    ::-webkit-scrollbar {
+        height: 10px;
+        width: 5px;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background-color: #000000a2;
     }
 }
