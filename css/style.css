@@ -86,6 +86,19 @@ h1 {
     color: #fff;
 }
 
+/* --- servicos --- */
+
+#servicos {
+    background: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+} 
+
+.albuns {
+    padding: 10px 0;
+}
+
+
 /* --- media queries --- */
 
 /* --- Dispositivos extra small (telefones em modo retrato, com menos de 576px) --- */
