@@ -143,13 +143,54 @@ h3 {
     padding-left: 80px;
 }
 
+/* --- footer --- */
+
+footer {
+    background: #000;
+    padding: 50px 0px 20px 0px;
+    position: relative;
+}
+
+footer h4 {
+    color: #919496;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    margin: 2em;
+}
+
+footer .navbar-nav a {
+    color: white;
+    font-size: 0.8em;
+}
+
+footer .navbar-nav a:hover {
+    color: #9bf0e1;
+    text-decoration: none;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer ul li {
+    float: right;
+    margin: 0 5px;
+    padding: 5px;
+}
+
+/* --- carousel --- */
+
+.carousel-control-next, .carousel-control-prev {
+    width: 5%;
+}
+
 /* --- media queries --- */
 
 /* --- Dispositivos extra small (telefones em modo retrato, com menos de 576px) --- */
 @media (max-width: 575.98px) {
 
     .btn-custom {
-        margin: 10px 15px;
+        margin: 10px 0;
         width: 100%;
         font-size: 1em;
     }
@@ -177,7 +218,7 @@ h3 {
 @media (min-width: 576px) and (max-width: 767.98px) {
 
     .btn-custom {
-        margin: 10px 15px;
+        margin: 10px 0;
     }
 
     .btn-branco {
@@ -219,7 +260,7 @@ h3 {
     }
 
     ::-webkit-scrollbar-thumb {
-        background-color: #000000a2; 
+        background-color: #000000a2;
     }
 }
 
