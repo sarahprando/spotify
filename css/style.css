@@ -1,0 +1,127 @@
+/* --- layout --- */
+
+html,
+body,
+#home {
+    height: 100%;
+}
+
+body {
+    background: url(../img/capa.png),
+        url(../img/ruido.png),
+        linear-gradient(50deg, #ff4169, #7c26f8);
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* --- header nav --- */
+
+nav.navbar-transparente {
+    padding: 15px 0;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    font-weight: bold;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #9bf0e1;
+}
+
+.navbar-light .navbar-toggler {
+    color: rgba(0, 0, 0, .5);
+    border-color: transparent;
+}
+
+.divisor {
+    width: 1px;
+    background: white;
+    margin: 12px 15px;
+}
+
+.navbar-brand {
+    margin-left: 0.5em;
+}
+
+/* --- section home --- */
+
+.capa {
+    text-align: center;
+}
+
+.btn-custom {
+    color: white;
+    border-radius: 500px;
+    -webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+    text-transform: uppercase;
+    transition: background 0.4s, color 0.4s;
+    padding: 10px 20px;
+}
+
+.btn-roxo {
+    background: #7c25f8;
+}
+
+.btn-roxo:hover {
+    background: #6207e3;
+    color: #fff;
+}
+
+.btn-branco {
+    border: 2px solid #fff;
+}
+
+.btn-branco:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+h1 {
+    font-weight: 900;
+    letter-spacing: -0.05em;
+    margin-bottom: 50px;
+    color: #fff;
+}
+
+/* --- media queries --- */
+
+/* --- Dispositivos extra small (telefones em modo retrato, com menos de 576px) --- */
+@media (max-width: 575.98px) {
+    .btn-custom {
+        margin: 10px 15px;
+    }
+
+    .btn-branco {
+        padding: 10px 30px;
+    }
+}
+
+/* --- Dispositivos small (telefones em modo paisagem, com menos de 768px)  --- */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    h1 {
+        font-size: 3em;
+    }
+}
+
+/* --- Dispositivos médios (tablets com menos de 992px) --- */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    h1 {
+        font-size: 4em;
+    }
+}
+
+/* --- Dispositivos large (desktops com menos de 1200px) --- */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    h1 {
+        font-size: 5em;
+    }
+}
+
+@media (min-width: 1200px) {
+    h1 {
+        font-size: 6em;
+    }
+}
