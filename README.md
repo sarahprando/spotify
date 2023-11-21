@@ -1,6 +1,6 @@
 ## <h1 align="center">Projeto Spotify</h1>
 <p align="center">Projeto Spotify do curso de Desenvolvimento Web Completo - Udemy. 
-  <a href="https://sarahprando.github.io/spotify/"> Link do projeto!!!</a></p>
+  <a href="https://sarahprando.github.io/spotify/" target="_blank"> Link do projeto!!!</a></p>
 
 <div style="display: inline_block" align="center"><br>
   <img alt="Sarah-Udemy" src="https://img.shields.io/badge/Udemy-EC5252?style=for-the-badge&logo=Udemy&logoColor=white">
